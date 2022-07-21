@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: dotnetnxt
-          image: prdctmntc.azurecr.io/divyaag:#{Release.Artifacts.kubedivyaag.BuildId}#
+          image: prdctmntc.azurecr.io/divyaag:#{Release.Artifacts.divyaag.BuildId}#
          
           imagePullPolicy: Always
 
